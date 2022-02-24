@@ -1,6 +1,6 @@
 # stuod_cyclone
 
-This is my submission for the STUOD hackathon challenge: https://www.imperial.ac.uk/news/219153/stuods-hackathon-winners-announced/ in 2020.
+This is my submission for the STUOD hackathon challenge: https://www.imperial.ac.uk/news/219153/stuods-hackathon-winners-announced/ in 2021.
 I am thankful for my awesome teammate, and happy to get runner up in this challenge!
 
 Our specific challenge was to determine cyclone trajectories into the future using (~30GB) past time-series-like historical data on attributes of cyclone since 2000. Due to the difficulty in determining exact characteristics of cyclones, most of the data was noisy, and further, of the hundreds of potential attributes a cyclone could have, very few were measured. The characteristics measured also varied between samples.
