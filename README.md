@@ -7,7 +7,7 @@ Our specific challenge was to determine cyclone trajectories into the future usi
 
 During this hackathon, we had access to general model methology of competing teams, as well as links to academics with serious weather-forecasting experience.
 
-I believe we were the only team to use a random forest - this inference model was specifically chosen due to the sparsity and noise in the data, giving a clear advantage over neural networks unaccustomed to noise of specific symmetries (ie, non-translational noise in CNNs). The noise gave the opposite effect of pseudo-bagging to decrease model prediction variance, and thus, MSE.
+I believe we were the only team to use a random forest - this inference model was specifically chosen due to the sparsity and noise in the data, giving a clear advantage over neural networks unaccustomed to noise of specific symmetries (ie, non-translational noise in CNNs). The noise gave the opposite effect of pseudo-bagging to decrease model prediction variance, and thus, error.
 
 The main caveat in our model was in the type of predictions one would like out of a cyclone. Sometimes this would be speed, or location, or water salinity, or size, with different variability in the time-scale to predict future events by. Due to the unclear nature of model output, an 'autoML'-like function was made, which would give the user the ability to create models and predict any sort of cyclone characteristic at any number of time steps in advance with one line of code.
 
