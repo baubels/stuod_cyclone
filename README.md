@@ -13,7 +13,7 @@ The main caveat in our model was in the type of predictions one would like out o
 
 There was another clear advantage to using random forests - and that was of interprability. Having the ability to make 'partial plots', give 'feature importances', and inspect the decision process over individual trees would give a meteorologist or government great insight into the nature of the cyclone at hand.
 
-A novel method was also used in our model, that was of applying a random forest as a pre-activation to a second random forest. Effectively, one random forest was trained, and extracted were the most useful predictors in the data. A second random forest was then trained exclusively on data containing those predictors of high importance as determined by the prior random forest. This gave a slight improvement to model performance.
+A novel method was also used in our model, that was of applying a random forest as a pre-activation to a second random forest. Effectively, one random forest was trained, and extracted were the most useful predictors in the data. A second random forest was then trained exclusively on data containing those predictors of high importance as determined by the prior random forest. This gave a slight improvement on model performance.
 
 ---
 Post competition, an interesting observation was in the importance water salinity has in cyclone strength - a factor (which I believe) was not considered by the experts at the time to be of major effect.
