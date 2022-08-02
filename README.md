@@ -1,4 +1,4 @@
-# stuod_cyclone
+# Imperial College's STUOD 2021 Hackathon 2nd place submission
 
 This is my submission for the STUOD hackathon challenge: https://www.imperial.ac.uk/news/219153/stuods-hackathon-winners-announced/ in 2021.
 I am thankful for my awesome teammate, and happy to get runner up in this challenge!
@@ -19,4 +19,4 @@ A novel method was also used in our model, that was of applying a random forest 
 Post competition, an interesting observation was in the importance water salinity has in cyclone strength - a factor (which I believe) was not considered by the experts at the time to be of major effect.
 
 We are also very greatful for our model's excellent performance, for this characteristic gave us high competition marks.
-Thank you for my excellent teammate, Oliver, and the people of the competition.
+Thank you for my excellent teammate, Oliver, and the people of the competition. I am further thankful for being allowed as a competitor due to being the only undergraduate in this postgraduate competition.
